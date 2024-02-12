@@ -112,7 +112,7 @@ def main():
  
     root = tk.Tk()
     app = SlotMachineGUI(root)
-    app.balance.set()
+    app.balance.set(1000)
 
     # Center  GUI window on the screen
     window_width = 300  
